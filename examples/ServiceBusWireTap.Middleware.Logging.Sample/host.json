@@ -1,0 +1,23 @@
+{
+  "version": "2.0",
+  "logging": {
+    "applicationInsights": {
+      "samplingSettings": {
+        "isEnabled": false
+      }
+    },
+    "logLevel": {
+      "default": "Information",
+      "Host.Results": "Information",
+      "Function": "Information",
+      "Host.Aggregator": "Information",
+      "Microsoft.Azure.WebJobs.Hosting": "Information",
+      "Microsoft.Azure.WebJobs.Script": "Information",
+      "Microsoft.Azure.WebJobs.Script.WebHost": "Information",
+      "Microsoft.Azure.WebJobs": "Information",
+      "Microsoft.Azure.WebJobs.Host": "Information",
+      "Microsoft.Azure.WebJobs.Script.WebHost.Middleware": "Information",
+      "WireTap.ServiceBus.Middleware": "Information"
+    }
+  }
+} 
